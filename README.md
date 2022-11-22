@@ -8,18 +8,20 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the necessary python packages using import statements.
+2. Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
+3. Import KMeans and use for loop to cluster the data.
+4. Predict the cluster and plot data graphs.
+5. Print all the outputs.
 
 ## Program:
 ```
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: SANJAY S
-RegisterNumber: 22007761 
+RegisterNumber: 212221243002
 */
+
 import pandas as pd
 import matplotlib.pyplot as plt
 data=pd.read_csv("Mall_Customers (1).csv")
@@ -57,24 +59,24 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
+
 ```
 
 ## Output:
-![ml8op1](https://user-images.githubusercontent.com/115128955/200996309-21cf7615-3670-4b4e-87c7-969ba782954c.png)
 
-![ml8op2](https://user-images.githubusercontent.com/115128955/200996352-d07d3e37-10ab-4861-b4de-f91cc820d458.png)
+![image1](op1.png)
 
-![ml8op3](https://user-images.githubusercontent.com/115128955/200996370-7a7b12c7-3c65-4a0e-99d0-df13029ab793.png)
+![image2](op2.png)
 
-![ml8op4](https://user-images.githubusercontent.com/115128955/200996393-59ded61b-80fc-4574-bddf-5cfc50a539a0.png)
+![image3](op3.png)
 
-![ml8op5](https://user-images.githubusercontent.com/115128955/200996413-f44f4cfa-8e8e-43de-adc1-a56c321cde33.png)
+![image4](op4.png)
 
-![ml8op6](https://user-images.githubusercontent.com/115128955/200996433-ac426669-3e3b-4e58-9415-4aab8d8313f1.png)
+![image5](op5.png)
 
-![ml8op7](https://user-images.githubusercontent.com/115128955/200996448-eec236fa-2333-48d4-81ef-ee3939938317.png)
+![image6](op6.png)
 
-
+![image7](op7.png)
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
